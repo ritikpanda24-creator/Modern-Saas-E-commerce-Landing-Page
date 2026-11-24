@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="NEXORA - Smarter productivity for modern teams.">
+
+    <title>NEXORA | Work Smarter</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#" class="logo">NEXORA<span>.</span></a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <a href="#pricing" class="nav-btn">Get Started ↗</a>
+
+            <button class="menu-toggle" id="menuToggle"
+                aria-label="Toggle navigation" aria-expanded="false">
+                ☰
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <main>
+        <section class="hero container" id="home">
+
+            <div class="hero-content">
+                <span class="tag">✦ THE FUTURE OF PRODUCTIVITY</span>
+
+                <h1>
+                    Work smarter.<br>
+                    Build <span>faster.</span>
+                </h1>
+
+                <p>
+                    Bring your team's ideas, projects, and workflows
+                    together in one powerful workspace.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#pricing" class="primary-btn">
+                        Start for free →
+                    </a>
+
+                    <a href="#features" class="secondary-btn">
+                        Explore features
+                    </a>
+                </div>
+
+                <div class="hero-trust">
+                    <div class="avatars">👨🏻 👩🏽 👨🏿 👩🏻</div>
+                    <p>Trusted by 10,000+ creators</p>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="dashboard-card">
+                    <div class="dashboard-top">
+                        <span>Workspace Overview</span>
+                        <span class="live-dot">● Live</span>
+                    </div>
+
+                    <div class="dashboard-stats">
+                        <div>
+                            <small>Total Projects</small>
+                            <h2>248</h2>
+                        </div>
+                        <div>
+                            <small>Productivity</small>
+                            <h2 class="purple">+86%</h2>
+                        </div>
+                    </div>
+
+                    <div class="chart">
+                        <div style="height:35%"></div>
+                        <div style="height:55%"></div>
+                        <div style="height:45%"></div>
+                        <div style="height:75%"></div>
+                        <div style="height:60%"></div>
+                        <div style="height:90%"></div>
+                        <div style="height:70%"></div>
+                    </div>
+
+                    <div class="dashboard-bottom">
+                        <span>Weekly performance</span>
+                        <span>+24.8%</span>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Features Section -->
+        <section class="features container" id="features">
+            <span class="tag">WHY NEXORA?</span>
+            <h2>Everything you need to <span>grow.</span></h2>
+            <p>Powerful tools designed to make work effortless.</p>
+
+            <div class="feature-grid">
+                <article class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Lightning Fast</h3>
+                    <p>Get more done with streamlined workflows.</p>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Stay Focused</h3>
+                    <p>Keep every project and goal organized.</p>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Smart Analytics</h3>
+                    <p>Track progress with powerful insights.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section class="pricing container" id="pricing">
+            <span class="tag">SIMPLE PRICING</span>
+            <h2>Plans that scale with you.</h2>
+
+            <div class="pricing-card">
+                <h3>Pro Plan</h3>
+                <h2>$19<span>/month</span></h2>
+                <p>Everything you need to level up your workflow.</p>
+                <a href="#contact" class="primary-btn">Get Started →</a>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="contact container" id="contact">
+            <h2>Ready to work smarter?</h2>
+            <button class="primary-btn" id="contactBtn">
+                Get in touch →
+            </button>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 NEXORA. Built with HTML, CSS & JavaScript.</p>
+    </footer>
+
+    <!-- Contact Modal -->
+    <div class="modal" id="contactModal" aria-hidden="true">
+        <div class="modal-content" role="dialog"
+            aria-modal="true" aria-labelledby="modalTitle">
+            <button class="close-modal" id="closeModal"
+                aria-label="Close modal">×</button>
+            <h2 id="modalTitle">Let's connect!</h2>
+            <a href="mailto:hello@example.com" class="primary-btn">
+                Send us an email
+            </a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
